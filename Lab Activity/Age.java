@@ -1,5 +1,5 @@
 package java2;
-public class Dfd{
+public class Age{
 
 	public static void main(String[] args) {
 		int age=21;
