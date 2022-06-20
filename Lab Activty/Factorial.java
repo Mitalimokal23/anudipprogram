@@ -25,7 +25,7 @@ public class Factorial{
 4  2
 5  1
 
-public class Loop {
+public class Factorial {
     public static void main(String[] args) {
         for (int i = 1, j = 5; i < 10 && j > 0; i++, j--) {
             System.out.println( i +  "  " + j );
