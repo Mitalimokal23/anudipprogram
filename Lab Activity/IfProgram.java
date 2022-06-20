@@ -6,7 +6,7 @@ package java2;
 
 
 
-public class Anp{
+public class IfProgram{
 
 	  public static void main(String[] args) {
 
