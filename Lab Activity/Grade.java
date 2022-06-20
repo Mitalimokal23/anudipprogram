@@ -1,5 +1,5 @@
 package java2;
-class Dae{
+class Grade{
     public static void main(String[] args) {
      
        {
