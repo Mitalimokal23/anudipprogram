@@ -1,7 +1,7 @@
 1 Write a Java Program to check given number is even or odd
 
 
-class Example{
+class OddEven{
     public static void main(String[] args) {
         int a = 6;
         if (a % 2 == 0){
