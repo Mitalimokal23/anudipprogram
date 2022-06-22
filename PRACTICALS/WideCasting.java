@@ -1,4 +1,4 @@
-class NarrowCasting{
+class WideCasting{
 public static void main (String args[] )
 {
   int num = 10;
