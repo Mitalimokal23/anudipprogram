@@ -1,8 +1,8 @@
-class Ternary{
+class NarrowCasting{
 public static void main (String args[] )
 {
-  float num = (float)10.6;
-   int  mynum =(int) num;
+  int num = 10;
+   float  mynum =(float) num;
 System.out.println(num);
 
 System.out.println(mynum);
