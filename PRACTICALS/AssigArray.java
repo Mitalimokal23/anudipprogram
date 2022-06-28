@@ -1,17 +1,16 @@
-class Assig{
+class AssignArrays{
 public static void main (String args []) {
-int a[ ] = { 1, 2,3,4,5};  
-int b[]= {9,8,7,6,5};   
- int c [ ] =  new int[a.length];
+int a[ ] = { 1, 2,3,4,5,6};     
+ int b [ ] =  new int[a.length];
+b = a;
+b[0]++;
 
+        System.out.println("Contents of a[] ");
         for (int i = 0; i < a.length; i++)
-           c[i] = a[i] + b[i];
-           System.out.println(c[i] + " "); 
-
-
+            System.out.print(a[i] + " ");
  
-
- 
-        
+        System.out.println("Contents of b[] ");
+        for (int i = 0; i < b.length; i++)
+            System.out.print(b[i] + " ");
     }
 }
